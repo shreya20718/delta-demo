@@ -1,13 +1,11 @@
-if condition:
-    # Code block if condition is True
-else:
-    # Code block if condition is False
+ Python Math Module Exercises
 
- How It Works:
-sum = 0 initializes the total to zero.
+This repository contains basic Python programs demonstrating the use of built-in functions and the `math` module for mathematical operations.
 
-for i in range(1, 51): loops from 1 to 50 (inclusive).
+---
 
-Inside the loop, each number is added to sum.
+## 🧮 Task 1: Factorial Function Using Recursion
 
-After the loop ends, it prints the final result.
+### Description:
+This program calculates the factorial of a given number using recursion.
+
