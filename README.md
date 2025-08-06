@@ -1,38 +1,17 @@
-# File Handling in Python
+# Simple Python Practice: List & Dictionary Operations
 
-This Python script demonstrates basic file handling operations including:
-
-1. **Reading from a file (`sample.txt`)**
-2. **Writing to a file (`output.txt`)**
-3. **Appending to the same file (`output.txt`)**
+This project is a beginner-level Python script that demonstrates:
+- List slicing and reversing
+- Dictionary lookup with user input
 
 ---
 
-## 🔹 Features
+## 🧠 What It Does
 
-### 1. **Reading Lines from `sample.txt`**
-- The script checks if `sample.txt` exists.
-- If it exists, it reads the contents line by line.
-- It prints:
-  - Line 1
-  - Line 2
-  - Or shows an appropriate message if there are fewer lines or the file is empty.
-
-### 2. **Writing to `output.txt`**
-- Takes user input using `input()` and writes that content to `output.txt`.
-- This **overwrites** the file if it already exists.
-
-### 3. **Appending to `output.txt`**
-- Takes another user input and **appends** it to the file without deleting the existing content.
+- Displays the original list and its first 5 elements
+- Reverses and prints the first 5 elements using slicing
+- Prompts the user to enter a name and checks if it's in a dictionary
+- Displays the age if found, or shows a "student not found" message
 
 ---
-
-## 🛠️ How to Run
-
-1. Make sure Python is installed on your system.
-2. Create a file named `sample.txt` in the same directory if you want the read part to succeed.
-3. Run the script using:
-
-```bash
-python script_name.py
 
